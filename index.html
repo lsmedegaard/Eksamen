@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">logo</a>
+            <div id=toggle onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Velkommen til mit første semester på Kea</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam eaque ullam corporis temporibus ipsa, unde, voluptates explicabo nemo officia illum quod autem porro blanditiis, non minima laborum atque incidunt tempore sed quibusdam. Beatae, quos. Natus, deserunt. Dolorem dolores, nostrum perferendis id pariatur tempora quos modi eaque, laudantium error natus ab?</p>
+            <a href="#">Læs mere om mine projekter her</a>
+        </div>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="#">Tema 1</a></li>
+            <li><a href="responsive_site_v2/index.html">Tema 2</a></li>
+            <li><a href="">Tema 3</a></li>
+            <li><a href="spil/index.html">Tema 4</a></li>
+            <li><a href="redesign/index.html">Tema 5</a></li>
+            <li><a href="">Om mig</a></li>
+
+        </ul>
+    </div>
+
+
+    <script type="text/javascript">
+        function toggle() {
+            let sec = document.getElementById('sec');
+            let nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+
+    </script>
+</body>
+
+</html>
